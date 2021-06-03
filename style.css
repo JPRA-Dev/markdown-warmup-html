@@ -19,8 +19,9 @@ header {
     color: white;
     background-color: #999da0;
     padding:  20px;
-    border-bottom-left-radius: 20% ;
-    border-bottom-right-radius: 20% ;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 1px 2px 3px 1px #777b7e;
 }
 
 .namePic {
@@ -30,11 +31,11 @@ header {
 }
 
 .namePic img {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 350px;
-    border-radius: 20px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px #777b7e;
 }
 
 .tableSection {
@@ -46,6 +47,7 @@ header {
     display: inline-block;
     width: 100%;
     justify-content: center;
+    box-shadow: 1px 2px 3px 1px #777b7e, 1px -2px 3px 1px #777b7e ;
 }
 
 #titleTable {
@@ -87,4 +89,111 @@ table.myTable tbody td {
 table.myTable tfoot td {
     text-align: center;
     font-size: 16px;
+}
+
+#hobbiesTitle {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    padding-top:  50px;
+    padding-bottom:  50px;
+
+
+}
+
+.listSection {
+    color: white;
+    background-color: #999da0;
+    padding-top:  5px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 1px 2px 3px 1px #777b7e, 1px -2px 3px 1px #777b7e ;
+
+}
+
+
+#listHobbies {
+    text-align: center;
+    padding-top:  50px;
+    padding-bottom:  50px;
+
+}
+
+ul   { 
+    list-style-type: disc;
+    list-style-position: inside;
+      -moz-column-count: 2;
+   -moz-column-gap: 1px;
+   -moz-column-fill: auto;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 1px;
+   -webkit-column-fill: auto;
+   column-count: 2;
+   column-gap: 1px;
+   column-fill: auto;
+   list-style-position: inside;
+} 
+
+li  { 
+    padding: 11px; 
+    margin: 7px; 
+  }  
+
+#textAfterHobbies {
+text-align: center;
+    font-size: 1.2em;
+    color: black;
+    padding-top:  50px;
+    padding-bottom:  50px;
+
+}
+
+.funnyStorySection {
+    color: white;
+    background-color: #999da0;
+    padding-top:  5px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 1px 2px 3px 1px #777b7e, 1px -2px 3px 1px #777b7e ;
+}
+
+.funnyStorySection img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #777b7e;
+}
+
+#funnyText {
+    margin: 50px;
+}
+
+.funnyStoryTitles {
+
+
+}
+
+#takeCoffee {
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom:  50px;
+
+}
+
+footer {
+  text-align: center;
+
+    font-size: 1em;
+    color: white;
+    background-color: #999da0;
+    padding:  10px;
+    margin-top: 20px;
+    border-top-left-radius: 10% ;
+    border-top-right-radius: 19% ;
+    box-shadow: 1px -2px 3px 1px #777b7e ;;
+
 }
